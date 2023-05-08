@@ -1,5 +1,36 @@
-*{
-    text-align: center;
+.navbar {
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+  .navbar .logo {
+    height: 45px;
+    width: 90px;
+    grid-column: 2 / 3;
+}
+  .navbar .menu {
+    grid-column: 4 / 7;
+    display: flex;
+}
+  .navbar ul li {
+    margin-right: 3em;
+    list-style: none;
+}
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+  .navbar a:hover {
+    color: #fff;
+}
+  .navbar .menu-bar {
+    display: none;
+}
+.navbar .shop {
+    grid-column: 8 / 9;
+    justify-content: flex-end;
 }
 header{
     font-size: 20px;
