@@ -4,28 +4,28 @@
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
 }
-  .navbar .logo {
+.navbar .logo {
     height: 45px;
     width: 90px;
     grid-column: 2 / 3;
 }
-  .navbar .menu {
+.navbar .menu {
     grid-column: 4 / 7;
     display: flex;
 }
-  .navbar ul li {
+.navbar ul li {
     margin-right: 3em;
     list-style: none;
 }
-  .navbar a {
+.navbar a {
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
-  .navbar a:hover {
+.navbar a:hover {
     color: #fff;
 }
-  .navbar .menu-bar {
+.navbar .menu-bar {
     display: none;
 }
 .navbar .shop {
