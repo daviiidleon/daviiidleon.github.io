@@ -45,7 +45,7 @@
   }
   .hero {
     height: 83vh;
-    background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(imagenport3.jpg);
+    background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(ima);
     background-size: cover;
     max-width: 100%;
     display: grid;
