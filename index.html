@@ -1,51 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/f0558ab04d.js" crossorigin="anonymous"></script>   
-    <title>DAVID LEÓN GUTIÉRREZ</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <link rel="shortcut icon" href="DL.jpg">
+  <title>David León Gutiérrez</title>
+  <meta name="description" content="Portfolio" />
 </head>
+
 <body>
-    <header class="header">
-        <nav class="navbar">
-          <img src="Mi proyecto.png" class="logo" alt="DLEOTECH">
-          <ul class="menu" id="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <div class="menu-bar">
-            <i class="fas fa-bars" id="menu-bar"></i>
-          </div>
-        </nav>
-    </header>
-
-
-    <main class="hero">
-    <div class="info-content" data-aos="fade-up" data-aos-duration="2000">
-      <h1>DAVID LEON</h1>
-      <h4>Multiplatform Application Development student</p>
-      <button class="btn">Read More</button>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="Mi proyecto.png"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">David León</h4>
     </div>
-    <section class="info-medium">
-      <p>I am David, a young man passionate about entrepreneurship and sports, hardworking and dedicated with extensive work experience..</p>
-    </section>
-  </main>
-    
-    <nav>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html#about">About me</a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#projects">Projects</a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href="">Contact</a></li>
+      </ul>
     </nav>
-    <section>
-        <article>
-        </article>
-    </section>
-    <footer>
-        <a href="https://www.instagram.com/daviiidleon/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://twitter.com/Daviiidleon29"><i class="fa-brands fa-twitter"></i></a>
-    </footer>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About me</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello </span>
+          <span class="heading-primary__main">
+            I'm David León! Student of cross-platform application development
+          </span>
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme">Projects</button>
+        <button class="btn btn-inv home-hero__btn-theme">Contact</button>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About me </span>
+        <span class="heading-secondary__main">
+          I am a young, hard-working and dedicated cross-platform application development student with extensive work experience.
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              More about me
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                When I had to decide which direction to take with regard to my studies and future work,
+                I made the decision to study something related to computing, computing was the field
+                that most attracted my attention and regarding work it has always had and will have
+                a great demand.
+              </span>
+              <span>
+                During my vacations I work as a lifeguard, I am a Lifeguard with functions and mastery
+                of first aid, development of techniques approach, aid, rescue, resuscitation and 
+                stransport of victims. Knowledge to promote safety habits and self-protection, vigilance
+                and prevention to avoid risk situations. knowledge of Basic psychological resources and
+                techniques for coping with situations conflicting.
+              </span>
+              <span>
+                In addition to working as a lifeguard, I have work experience in hospitality, agriculture
+                or pool maintenance
+              </span>
+            </p>
+            <button class="btn btn-theme about__btn-theme">Projects</button>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">linux</li>
+              <li class="about__skill">Windows</li>
+              <li class="about__skill">Java</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects </span>
+        <span class="heading-secondary__main">
+          comming soon
+        </span>
+      </h2>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact </span>
+        <span class="heading-secondary__main">
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="contact__form-cont">
+          <form class="contact__form">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Name</label>
+              <input placeholder="Enter Your Name" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Email</label>
+              <input placeholder="Enter Your Email" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Message</label>
+              <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10"
+                class="contact__form-field-input"></textarea>
+            </div>
+            <button type="submit" class="contact__form-submit">Submit</button>
+          </form>
+          <div class="contact__form-visual"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html#about">About me</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="" alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
 </body>
+
 </html>
